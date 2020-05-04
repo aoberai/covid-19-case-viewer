@@ -29,7 +29,13 @@ public class Tester {
 
         PandemicData.findData(PandemicData.sPandemicData, PandemicData.TypeFilter.STATE, "california").forEach(figure -> System.out.print(figure.getDeaths() + " ")); //prints out all the deaths by day separated by spaces in California
 
-//        new ScatterPlot("California",  "Utah", "Washington", "New Jersey");
+        //Testing of StateFigures class
+        StateFigures wisconsinStats = new StateFigures();
+        for (Figure figure : PandemicData.findData(PandemicData.sPandemicData, PandemicData.TypeFilter.STATE, "wisconsin")) {
+            wisconsinStats.insert(figure);
+        }
+        System.out.println("\nWisconsin Total Deaths: " + wisconsinStats.getTotalDeaths());
+
         new ScatterPlot("California", "New York", "Utah", "Washington", "New Jersey", "Illinois", "Arizona", "Colorado"); //Plots the cases for each of the states listed in visual scatter plot
     }
 }
