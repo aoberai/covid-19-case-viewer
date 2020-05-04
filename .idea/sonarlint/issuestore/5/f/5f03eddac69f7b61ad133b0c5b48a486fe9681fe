@@ -1,0 +1,19 @@
+
+Œ
+java:S1319	"wThe type of the "pandemicData" object should be an interface such as "List" rather than the implementation "ArrayList".(«Œ
+G
+java:S1444	"2Make this "public static pandemicData" field final(«Œ
+‹
+java:S13191"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ùÙ£¤úÿÿÿÿ
+n
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(«Œ
+’
+java:S1319"wThe type of the "pandemicData" object should be an interface such as "List" rather than the implementation "ArrayList".(áÔ›ßøÿÿÿÿ
+m
+java:S1104	"XMake pandemicData a static final constant or non-public and provide accessors if needed.(«Œ
+2
+java:S2386	"Make this member "protected".(«Œ
+m
+java:S37761"RRefactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.(ùÙ£¤úÿÿÿÿ
+’
+java:S13191"wThe type of the "pandemicData" object should be an interface such as "List" rather than the implementation "ArrayList".(ùÙ£¤úÿÿÿÿ

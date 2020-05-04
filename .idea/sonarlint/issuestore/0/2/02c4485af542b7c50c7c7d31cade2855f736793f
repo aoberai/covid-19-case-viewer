@@ -1,0 +1,7 @@
+
+`
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(ÎÔÖÎÿÿÿÿÿ
+_
+java:S2259"DA "NullPointerException" could be thrown; "parser" is nullable here.(’¤á˜ùÿÿÿÿ
+>
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
